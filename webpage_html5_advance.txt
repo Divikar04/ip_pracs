@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Web Page</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>Welcome to My Advanced HTML5 Web Page</h1>
+
+    <!-- Advanced Lists -->
+    <h2>HTML5 List Example</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>Programming language for web pages</dd>
+    </dl>
+
+    <!-- Frames (Using <iframe>) -->
+    <h2>Embedding External Web Page Using Iframe</h2>
+    <iframe src="https://www.example.com" width="600" height="300" frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+
+    <!-- Forms -->
+    <h2>HTML5 Form Example</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>HTML5 Multimedia Example</h2>
+
+    <!-- Audio -->
+    <h3>Audio Element</h3>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <h3>Video Element</h3>
+    <video controls width="600">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Advanced HTML5 Web Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>

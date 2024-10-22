@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS3 Web Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container with Flexbox */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+        }
+
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Button with transition and hover effects */
+        .btn {
+            background-color: #f39c12;
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e67e22; /* Changes color on hover */
+            transform: scale(1.1); /* Zoom-in effect */
+        }
+
+        /* Table with advanced styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 2px solid #ddd;
+            padding: 12px;
+            text-align: center;
+            color: #fff;
+        }
+
+        th {
+            background-color: #3498db;
+        }
+
+        td {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Image with transform and hover effects */
+        .image-container img {
+            max-width: 100%;
+            border-radius: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: rotate(10deg) scale(1.05); /* Rotation and scaling effect */
+        }
+
+        /* Footer with animation */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            animation: slideUp 1s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container with Flexbox -->
+    <div class="container">
+        <h1>Advanced CSS3 Features</h1>
+        <p>This page demonstrates advanced CSS3 techniques like transitions, transformations, flexbox layout, and more!</p>
+
+        <!-- Image with transform and hover -->
+        <div class="image-container">
+            <img src="https://via.placeholder.com/500x300" alt="Sample Image">
+        </div>
+
+        <!-- Button with hover and transition effects -->
+        <a href="#" class="btn">Hover me!</a>
+
+        <!-- Table with advanced styles -->
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Flexbox</td>
+                <td>Used for modern layouts, makes items responsive and aligned.</td>
+            </tr>
+            <tr>
+                <td>Transitions</td>
+                <td>Smoothly animates property changes like color or size.</td>
+            </tr>
+            <tr>
+                <td>Transforms</td>
+                <td>Allows rotation, scaling, and moving of elements.</td>
+            </tr>
+            <tr>
+                <td>Gradients</td>
+                <td>Background gradients add style and depth to a page.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer with slide-up animation -->
+    <footer>
+        &copy; 2024 CSS3 Advanced Design. All rights reserved.
+    </footer>
+
+</body>
+</html>

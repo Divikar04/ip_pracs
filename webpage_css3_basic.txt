@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Web Page with CSS3</title>
+    <style>
+        /* Styling the body with background color and font */
+        body {
+            background-color: #f0f8ff; /* Light background */
+            font-family: 'Arial', sans-serif; /* Custom font */
+            color: #333333; /* Text color */
+        }
+
+        /* Styling headings */
+        h1 {
+            color: #4CAF50; /* Green heading */
+            text-align: center;
+        }
+
+        h2 {
+            color: #008CBA; /* Blue subheading */
+        }
+
+        /* Styling paragraph */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555555;
+        }
+
+        /* Styling hyperlinks */
+        a {
+            color: #FF5722; /* Orange hyperlink */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling table */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Styling ordered list */
+        ol {
+            list-style-type: decimal;
+            padding-left: 40px;
+        }
+
+        ol li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        /* Styling unordered list */
+        ul {
+            list-style-type: square;
+            padding-left: 40px;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Welcome to My CSS3 Styled Web Page</h1>
+
+    <!-- Paragraph -->
+    <p>This web page demonstrates the use of <strong>CSS3 styles</strong> for colors, backgrounds, fonts, tables, and lists. You can click on links and interact with the table and lists below to see the effects.</p>
+
+    <!-- Hyperlink -->
+    <p>Click here to visit <a href="https://www.example.com" target="_blank">Example.com</a>.</p>
+
+    <!-- Table -->
+    <h2>Styled Table Example</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>10</td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>8</td>
+            <td>$3.00</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>15</td>
+            <td>$7.50</td>
+        </tr>
+    </table>
+
+    <!-- Ordered List -->
+    <h2>Ordered List Example</h2>
+    <ol>
+        <li>Introduction</li>
+        <li>CSS Styles</li>
+        <li>Conclusion</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>Unordered List Example</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CSS3 Styled Web Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
