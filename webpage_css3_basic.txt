@@ -14,7 +14,7 @@
 
         /* Styling headings */
         h1 {
-            color: #4CAF50; /* Green heading */
+            color: #4CAF50; /* Green heading *///
             text-align: center;
         }
 
