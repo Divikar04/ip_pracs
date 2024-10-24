@@ -17,7 +17,7 @@
         <dt>CSS</dt>
         <dd>Cascading Style Sheets</dd>
         <dt>JavaScript</dt>
-        <dd>Programming language for web pages</dd>
+        <dd>Programming language for web pages</dd>///
     </dl>
 
     <!-- Frames (Using <iframe>) -->
